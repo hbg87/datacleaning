@@ -25,11 +25,11 @@ mergedActivity <- rbind(testY, trainY)
 mergedTest <- rbind(testX, trainX)
 mergedAll <- data.table(mergedSubject, mergedActivity, mergedTest)
   
-## Format proper activity names (added here instead of daisy chaining into extract step so it runs through only 6 values instead of 10299)
+## Format proper activity names 
 # Removing all "_" from activity names
 activityName$Activity <- gsub("_", " ", tolower(as.character(activityName$Activity)))
 
-# Capitalizing each word (capwords function taken from tolower documentation)
+# Capitalizing each word
 capwords <- function(s, strict = FALSE) {
   cap <- function(s) paste(toupper(substring(s, 1, 1)),
                            {s <- substring(s, 2); if(strict) tolower(s) else s},
