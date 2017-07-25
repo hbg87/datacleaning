@@ -8,10 +8,12 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 # Variable Naming
 
-Identifiers
+**Identifiers**
 
-Subject - ID of Subject
-Activity - Type of activity 
+* Subject - ID of Subject
+* Activity - Type of activity 
+
+**Variables For Each Feature Vector**
 
 The names of the variables for each feature vector were set to lowercase to minimise coding mistakes resulting from the mistyping of variable names in the wrong case. 
 
