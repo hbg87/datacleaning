@@ -8,9 +8,14 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 # Variable Naming
 
-All variable names were set to lowercase to minimise coding mistakes resulting from the mistyping of variable names in the wrong case. 
+Identifiers
 
-The following prefixes were used to standardise the naming of the variables:
+Subject - ID of Subject
+Activity - Type of activity 
+
+The names of the variables for each feature vector were set to lowercase to minimise coding mistakes resulting from the mistyping of variable names in the wrong case. 
+
+The following prefixes were used to standardise the naming of the variables for each feature vector:
 
 * Prefix ‘time’ to denote time
 * Prefix ‘body’ to denote body
@@ -36,8 +41,10 @@ The following prefixes were used to standardise the naming of the variables:
 
 For a detailed technical description of how each step is performed, please refer to [README.md]( https://github.com/hbg87/datacleaning/blob/master/README.md). 
 
-# Complete list of variables of each feature vector included in the tidy data set:
+# Complete list of variables included in the tidy data set:
 
+* Subject
+* Activity
 * timebodyaccmeanx
 * timebodyaccmeany
 * timebodyaccmeanz
